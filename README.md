@@ -54,6 +54,7 @@ Phrase 3: I domum et cuna matrem tuam in cochleare.
 
 Phrase 4: Huffa, huffa meg, det finns poteter på badet. Stakkars, stakkars meg, det finns poteter på badet.
 
-Problem 6: Which problems do adaptive and predictive keyboards address? Explain how touch information and language information can be combined for keyboard adaptation. Explain decoding of touch sequences with token passing and beam pruning. Using Algorithm
+## Problem 6: 
+Which problems do adaptive and predictive keyboards address? Explain how touch information and language information can be combined for keyboard adaptation. Explain decoding of touch sequences with token passing and beam pruning. Using Algorithm
 
 

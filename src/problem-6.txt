@@ -1,0 +1,33 @@
+Problem 6: 
+
+Which problems do adaptive and predictive keyboards address? 
+Explain how touch information and language information can be combined for keyboard adaptation. 
+Explain decoding of touch sequences with token passing and beam pruning. 
+Using Algorithm
+
+
+Problems adaptive and predictive keyboards address are:
+    When a user uses a touch screen keyboard, a user will not always be accurate.
+    Typing ineffienceys, user body movement, to a user having sweaty hands to palm detection all of these 
+    can be addressed using adaptive and predictive keyboards.
+
+Explaination of how touch info and language info can be combined for keyboard adaptation: 
+    Firstly key preditction is use in parrelle with key adaption 
+    as if the user first types "Hel" the key prediction key will
+    then give a high probablity to "l" as it would make sense for this letter.
+    Now that the letter "l" has a higher chance of being click we therefore increase the
+    touch area of the high probabilities letters. 
+
+    Gaussian key model: p(t | k)
+    Probablity of next letter: p(k)
+    Probabilistic Keyboard Model: argmax(p(t | k) p(k))
+
+Explaination of decoding touch sequences with token passing and beam pruning
+    Token passing algorithm is a way to create probabilities of what key is more likely to be
+    pressed next in context of its previous keys / letters.
+    so for example initial Typing "c" the probability of "a" would be higher that "b"
+    as in a language a vowel would typical come after a consonant. 
+    Now this unmodified algorithm will then caculate the probabities of all letters, number and
+    special characters and that would be too demanding for a mobile device there fore 
+    we need to user beam searching to prune all keys that have too low of a probability and 
+    dont bother calculating.
