@@ -1,15 +1,35 @@
 # comp0455001-assignment-1
+## Prerequisites
+Please install all of the necessary libs using the requiments.txt
+```bash
+# From root of the folder
+pip install -r requirements.txt
+```
+
 ## Problem 1
+```bash
+# From root of the folder
+python src/problem-1.py
+```
+
 Problem 1: Named Entity Recognition showing tokenization, parts of speech tagging followed by named entity recognition for
 
 text = "Steve Jobs was an American entrepreneur and business magnate. He was the chairman, chief executive officer (CEO), and a co-founder of Apple Inc., chairman and majority shareholder of Pixar, a member of The Walt Disney Company's board of directors following its acquisition of Pixar, and the founder, chairman, and CEO of NeXT. Jobs is widely recognized as a pioneer of the microcomputer revolution of the 1970s and 1980s, along with Apple co-founder Steve Wozniak. "
 
 ## Problem 2
+```bash
+# From root of the folder
+python src/problem-2.py
+```
 Problem 2: Extract all bigrams, trigrams using ngrams of nltk library
 
 Sentences= "Machine learning is a necessary field in today's world. Data science can do wonders. Natural Language Processing is how machines understand text”
 
 ## Problem 3
+```bash
+# From root of the folder
+python src/problem-3.py
+```
 Problem 3: Sentiment analysis using Vader. Print polarity scores for e ach  along with compound scores for each sentence. Based on the compound scores, decide sentiment as positive (if >=0.05), negative (if<+0.05) or neutral otherwisetoken
 
  Sentences:
@@ -29,6 +49,12 @@ Problem 3: Sentiment analysis using Vader. Print polarity scores for e ach  alon
 “We are all so sad today”
 
 ## Problem 4
+```bash
+# From root of the folder
+python src/problem-4.py
+```
+### Note: This program takes a few seconds to run
+
 Problem 4: Text Summarization of a Wikipedia article
 
 https://en.wikipedia.org/wiki/Artificial_intelligence
@@ -42,6 +68,10 @@ https://en.wikipedia.org/wiki/Artificial_intelligence
 7) Creation of summary choosing 30% of top weighted sentences.
 
 ## Problem 5
+```bash
+# From root of the folder
+python src/problem-5.py
+```
 Problem 5
 
 Language detection Using NLTK Python and print the probabilities and language name for the following phrases:
@@ -55,6 +85,7 @@ Phrase 3: I domum et cuna matrem tuam in cochleare.
 Phrase 4: Huffa, huffa meg, det finns poteter på badet. Stakkars, stakkars meg, det finns poteter på badet.
 
 ## Problem 6: 
+### This is just a txt file, please read it in a editor of your choice
 Which problems do adaptive and predictive keyboards address? Explain how touch information and language information can be combined for keyboard adaptation. Explain decoding of touch sequences with token passing and beam pruning. Using Algorithm
 
 
