@@ -1,2 +1,6 @@
 vaderSentiment == 3.3.2
 nltk == 3.8.1
+wikipedia == 1.4.0
+lxml == 5.2.2
+beautifulsoup4 == 4.12.3
+langid == 1.1.6
