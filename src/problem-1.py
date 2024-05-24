@@ -4,8 +4,11 @@
 #   Author: Ernest John Decina
 #   Date: 10th May 2024
 #
-
+import nltk
 from nltk import word_tokenize, sent_tokenize, pos_tag
+
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 sentence = "Steve Jobs was an American entrepreneur and business magnate. He was the chairman, chief executive officer (CEO), and a co-founder of Apple Inc., chairman and majority shareholder of Pixar, a member of The Walt Disney Company's board of directors following its acquisition of Pixar, and the founder, chairman, and CEO of NeXT. Jobs is widely recognized as a pioneer of the microcomputer revolution of the 1970s and 1980s, along with Apple co-founder Steve Wozniak. "
 named_entities = []

@@ -10,7 +10,7 @@ Problem 2: Extract all bigrams, trigrams using ngrams of nltk library
 Sentences= "Machine learning is a necessary field in today's world. Data science can do wonders. Natural Language Processing is how machines understand text”
 
 ## Problem 3
-Problem 3: Sentiment analysis using Vader. Print polarity scores for e ach token along with compound scores for each sentence. Based on the compound scores, decide sentiment as positive (if >=0.05), negative (if<+0.05) or neutral otherwise
+Problem 3: Sentiment analysis using Vader. Print polarity scores for e ach  along with compound scores for each sentence. Based on the compound scores, decide sentiment as positive (if >=0.05), negative (if<+0.05) or neutral otherwisetoken
 
  Sentences:
 

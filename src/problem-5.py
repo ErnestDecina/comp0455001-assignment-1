@@ -49,3 +49,4 @@ for sentence in sentences:
     print("Language: {}".format(probable_language["lang"]))
 
     print("Probabilty: {}".format(probable_language["probabilty"]))
+
